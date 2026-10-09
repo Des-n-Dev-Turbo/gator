@@ -1,0 +1,27 @@
+{
+  "name": "gator",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "drizzle-kit": "^0.31.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.18.20": true
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4",
+    "fast-xml-parser": "^5.11.2",
+    "postgres": "^3.4.9"
+  }
+}
